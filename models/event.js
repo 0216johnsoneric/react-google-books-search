@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const bookSchema = new Schema({
+const eventSchema = new Schema({
 	title: { type: String, required: true },
 	authors: [{ type: String, required: true }],
 	description: String,
@@ -9,6 +9,6 @@ const bookSchema = new Schema({
 	link: String,
 });
 
-const Book = mongoose.model("Book", bookSchema);
+const Event = mongoose.model("Book", eventSchema);
 
-module.exports = Book;
+module.exports = Event;
