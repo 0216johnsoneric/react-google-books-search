@@ -13,7 +13,4 @@ This App lets you create a new React-based Google Book Library. It utilizes Reac
 
  or..
 
-2) Deploy on Heroku using MongoDB Atlas: https://library-google-books.herokuapp.com/
-
-
 <img src="client/public/.md/Screen Shot 2021-01-08 at 6.41.09 PM.png"/>
